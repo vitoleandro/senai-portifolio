@@ -63,3 +63,18 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+/* About me */
+.title-bordered {
+    position: relative;
+}
+
+.title-bordered::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    bottom: -5px;
+    left: 0;
+    background: var(--orange);
+}

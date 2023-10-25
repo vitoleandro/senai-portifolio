@@ -6,23 +6,31 @@
     #wrap {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         width: 60%;
         margin: 0 auto;
     }
 
     .grid-header {
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 16px;
+        justify-content: center;
+        gap: 32px;
+        background-color: red;
     }
 
     .grid-header__item {
         display: flex;
         flex-direction: column;
         gap: 16px;
+    }
+
+    .grid-resume {
+        display: flex;
+        flex-direction: column;
     }
 }
 
