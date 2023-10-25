@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
-/* @font-face {
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap'); */
+@font-face {
     font-family: 'Ubuntu';
-    src: url('/assets/fonts/ubuntu-regular.woff');
+    src: url('./../fonts/Ubuntu-Regular.ttf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('/assets/fonts/ubuntu-medium.woff');
+    src: url('./../fonts/Ubuntu-Medium.ttf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('/assets/fonts/ubuntu-bold.woff');
+    src: url('./../fonts/Ubuntu-Bold.ttf');
     font-weight: 700;
-} */
+}
